@@ -1,2 +1,5 @@
-# liri
-Language Interpretation and Recognition Interface
+# Liri (Node.js Bot)
+#### Language Interpretation and Recognition Interface
+
+---
+

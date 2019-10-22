@@ -60,9 +60,10 @@ inquirer
 
 // ANCHOR Concert
 function concertThis(artist) {
-
+    var url = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp"
+    console.log(url);
     axios
-    .get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp")
+    .get(url)
     .then(function(response){
         console.log("Venue Name: " + response.data[0].venue.name);
         console.log("Venue Location: " + response.data[0].venue.city);
