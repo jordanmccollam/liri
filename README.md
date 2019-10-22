@@ -11,3 +11,4 @@ Although LIRI is neat and could be helpful, LIRI may not be the most practical. 
 
 ### Dependancies 
 * inquirer
+`npm install inquirer`
